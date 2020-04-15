@@ -24,8 +24,13 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.css"
               
+=======
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
+>>>>>>> add all files
             ],
             "scripts": []
           },

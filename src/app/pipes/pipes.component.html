@@ -1,3 +1,4 @@
+<div id="pipes">
 <div class="card card-block">
     <h4 class="card-title">Currency</h4>
     <div class="card-text">
@@ -111,4 +112,22 @@
         </li>
       </ul>
     </div>
+  </div>
+
+
+
+  <div class="card card-block">
+    <h4 class="card-title" >AsyncPipe</h4>
+  
+    <p class="card-text" ngNonBindable>{{ promise | async }}  </p>
+    <p class="card-text">{{ promise | async }}  </p>
+  
+  
+    <p class="card-text" ngNonBindable>{{ observable$ | async }}  </p>
+    <p class="card-text">{{ observable$ | async }}</p>
+  
+  
+    <p class="card-text" ngNonBindable>{{ observableData }}  </p>
+    <p class="card-text">{{ observableData }}</p>
+   </div>
   </div>
